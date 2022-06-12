@@ -6,7 +6,7 @@ body{
   text-align: center;
   font-weight: bold;
   color: rgb(247, 247, 247);
-  font-size: 70px;
+  font-size: 6vw;
 }
 
 .menu{
@@ -42,12 +42,12 @@ body{
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  width: 700px;
   top: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  min-width: 340px;
 }
 .zdjecia{
   height: auto;
@@ -313,22 +313,12 @@ body{
 }
 .menu3{
   background-color: #001643;
-  font-size: 20px;
-}
-.menu{
-  font-size: 20px;
-}
-#title{
-  font-size: 50px;
 }
 }
 
 @media screen and (max-width:600px){
 .linkn{font-size: 20px ;}
 .clink{font-size: 15px;}
-#title{
-  font-size: 50px;
-}
 .header{
   font-size: 35px;
 }
@@ -353,9 +343,6 @@ body{
 @media screen and (max-width:400px){
   .linkn{font-size: 15px ;}
   .clink{font-size: 10px;}
-#title{
-  font-size: 35px;
-}
 .E{
   font-size: 40px;
 }
@@ -364,6 +351,9 @@ body{
 }
 .lista2{
   font-size: 25px;
+}
+.menu3{
+  font-size: 16px;
 }
 }
 
