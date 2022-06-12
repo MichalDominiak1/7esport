@@ -1,0 +1,371 @@
+body{
+  background-color:#001643 ;
+}
+
+#title{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(247, 247, 247);
+  font-size: 70px;
+}
+
+.menu{
+  width: 100%;
+  margin-top: 25px;
+}
+
+.menu{
+  text-align: center;
+  background-color: #000000;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+}
+.menutd{
+  width: 300px;
+}
+.menu2{
+  background-color: red;
+  width: 200px;
+  font-size: 30px;
+  box-shadow: 0 0 0px 10px red;
+}
+
+.E{
+  font-size: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: 700px;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.zdjecia{
+  height: auto;
+  width: 100%;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.1em rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 14.2%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  width: 100%;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.logo{
+  color: white;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  margin-left: 40%;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  border-width: 13px;
+  border-style: ridge;
+  border-color: rgb(6, 101, 243);
+}
+
+.formularz{
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.header{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.lista{
+  text-align: center;
+}
+
+.lista2{
+  color: white;
+  font-size: 30px;
+  text-align: justify;
+  display: inline-table;
+}
+
+.link{
+  color: #0066cc;
+}
+
+.link:active{
+  color: #551a8b;
+}
+  
+
+#header{
+  font-size: 50px;
+  color: white;
+}
+
+.photo{
+  width: 700px;
+  margin-left: 31%;
+}
+
+.text{
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 27px;
+}
+
+.link2{
+  color: #0066cc;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.link2:active, .link2:hover{
+  color: red;
+}
+
+.link3{
+  text-align: center;
+}
+
+
+
+.tdt{
+border-width: 2px;
+text-align: center;
+color: white;
+font-size: 20px;
+border-color: white;
+border-style: ridge;
+width: 30%;
+height: 50px;
+}
+
+.tabela{
+ color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.linktab{
+ color: white;
+ text-decoration: none;
+}
+
+.linktab:hover, .linktab:active{
+ color: red;
+}
+
+.clink{
+color: #0066cc;
+margin-left: 72%;
+font-size: 20px;
+}
+
+.clink:hover, .clink:active{
+color: red;
+}
+
+.linkn{
+  color: #0066cc;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.linkn:active, .linkn:hover{
+  color: red;
+}
+
+.menu3{
+text-align: center;
+background-color: #000000;
+height: 80px;
+color: white;
+font-size: 30px;
+width: 100%;
+}
+
+.text{
+  font-size: 2vw;
+}
+
+.finput{
+  width: 150px;
+}
+
+.stopka{
+  color: white;
+  text-align: right;
+  margin-right: 15%;
+  font-size: 20px;
+}
+
+.democursor{
+  width: 100%;
+  height: 55px;
+}
+
+.photo{
+  position: relative;
+  width: 700px;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-width:1200px){
+.formularz{font-size: 20px;}
+.menu{
+  background-color: #001643;
+}
+body{
+  background-color: rgb(25, 0, 255)
+}
+.menu3{
+  background-color: #001643;
+  font-size: 20px;
+}
+.menu{
+  font-size: 20px;
+}
+#title{
+  font-size: 50px;
+}
+}
+
+@media screen and (max-width:600px){
+.linkn{font-size: 20px ;}
+.clink{font-size: 15px;}
+#title{
+  font-size: 50px;
+}
+.header{
+  font-size: 35px;
+}
+.lista2{
+  font-size: 25px;
+}
+body{
+  background-color: rgba(65, 31, 160, 0.671);
+}
+.link{
+  color: blue;
+}
+.menu{
+  font-size: 20px;
+}
+.menu3{
+  font-size: 20px;
+}
+}
+
+
+@media screen and (max-width:400px){
+  .linkn{font-size: 15px ;}
+  .clink{font-size: 10px;}
+#title{
+  font-size: 35px;
+}
+.E{
+  font-size: 40px;
+}
+.header{
+  font-size: 35px;
+}
+.lista2{
+  font-size: 25px;
+}
+}
+
+
+
