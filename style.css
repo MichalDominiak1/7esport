@@ -6,7 +6,7 @@ body{
   text-align: center;
   font-weight: bold;
   color: rgb(247, 247, 247);
-  font-size: 6vw;
+  font-size: 5.8vw;
 }
 
 .menu{
@@ -347,7 +347,7 @@ body{
   width: 100%;
 }
 #title{
-  margin-top: -38vw;
+  margin-top: -40vw;
 }
 }
 
