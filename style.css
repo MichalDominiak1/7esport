@@ -24,6 +24,9 @@ body{
 .menutd{
   width: 300px;
 }
+.menutd2{
+  width: 300px;
+}
 .menu2{
   background-color: red;
   width: 200px;
@@ -47,7 +50,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  min-width: 340px;
+  min-width: 200px;
 }
 .zdjecia{
   height: auto;
@@ -157,7 +160,7 @@ body{
 }
 
 .header{
-  font-size: 50px;
+  font-size: 5vw;
   color: white;
   text-align: center;
 }
@@ -168,7 +171,7 @@ body{
 
 .lista2{
   color: white;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: justify;
   display: inline-table;
 }
@@ -302,6 +305,12 @@ width: 100%;
   margin-right: auto;
   width: 50%;
 }
+.menu5{
+  display: none;
+}
+.menu6{
+  display: none;
+}
 
 @media screen and (max-width:1200px){
 .formularz{font-size: 20px;}
@@ -314,16 +323,42 @@ body{
 .menu3{
   background-color: #001643;
 }
+.menu{
+  display: none;
+}
+.menu5{
+  background-color: black;
+  width: 12vw;       
+  text-align: center;
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.Esport{
+  background-color: red;
+  font-size: 4vw;
+  color: white;
+  width: 100%;
+  box-shadow: 0 0 0px 6px red;
+}
+.menutd{
+  color: white;
+  font-size: 3vw;
+  width: 100%;
+}
+#title{
+  margin-top: -38vw;
+}
 }
 
 @media screen and (max-width:600px){
 .linkn{font-size: 20px ;}
 .clink{font-size: 15px;}
 .header{
-  font-size: 35px;
+  font-size: 20px;
 }
 .lista2{
-  font-size: 25px;
+  font-size: 20px;
 }
 body{
   background-color: rgba(65, 31, 160, 0.671);
@@ -337,6 +372,26 @@ body{
 .menu3{
   font-size: 20px;
 }
+.tabelad{
+  margin-top: 100px;
+}
+.menu3{
+  display: none;
+}
+.menu6{
+  background-color: #001643;
+  width: 15vw;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: block;
+}
+.menutd2{
+  color: white;
+}
+.lista{
+  margin-top: -320px;
+}
 }
 
 
@@ -346,11 +401,8 @@ body{
 .E{
   font-size: 40px;
 }
-.header{
-  font-size: 35px;
-}
 .lista2{
-  font-size: 25px;
+  font-size: 20px;
 }
 .menu3{
   font-size: 16px;
